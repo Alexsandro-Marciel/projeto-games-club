@@ -21,10 +21,10 @@ h1 {
 
 p {
     font-size: 24px;
-    margin: 70px;
+    /* margin: 70px; */
     color: #ffffff;
     text-align: justify;
-
+    padding: 20px;
 }
 
 input {
@@ -71,7 +71,6 @@ form {
 .form-responsivo textarea,
 .form-responsivo button {
     width: 100%;
-    box-sizing: border-box;
     margin-bottom: 10px;
 }
 
@@ -102,12 +101,17 @@ div {
 }
 
 
-.contato {
-    position: fixed;
+.botao-contato {
+    /* position: fixed;
     bottom: 0%;
     left: 50%;
     transform: translatex(-50%);
+    margin-bottom: 20px; */
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
+   
 }
 
 input::placeholder {
